@@ -1,0 +1,109 @@
+body {
+      background-image: url(./img/bg.webp);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgb(230, 230, 255);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 138px;
+}
+
+h1 {
+      text-transform: uppercase;
+      font-size: 19px;
+      color: rgba(230, 252, 255, 0.452);
+}
+
+header {
+      text-align: center;
+      border: solid 5px;
+      min-width: 980px;
+      border-radius: 40px;
+}
+
+header:hover {
+      cursor: default;
+      text-align: center;
+      border: solid 5px;
+      min-width: 980px;
+      border-radius: 7px;
+
+}
+
+.container-principal {
+      background-color: rgba(230, 252, 255, 0.308);
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      padding: 20px;
+      flex: 3;
+      border-radius: 20px;
+}
+
+
+.cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-width: 300px;
+      min-height: 300px;
+      background-color: rgba(101, 101, 211, 0.507);
+      border-radius: 50px;
+}
+
+.cards:hover {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-width: 300px;
+      min-height: 300px;
+      background-color: rgba(146, 146, 206, 0.507);
+      border-radius: 15px;
+      cursor: default;
+      box-shadow: 1 2 3 4;
+}
+
+#saturno {
+      background-image: url(./img/saturno.jpg);
+      max-width: 300px;
+      max-height: 300px;
+}
+
+#jupiter {
+      background-image: url(./img/jupiter.jpg);
+      max-width: 300px;
+      max-height: 300px;
+}
+
+#marte {
+      background-image: url(./img/marte.jpg);
+      max-width: 300px;
+      max-height: 300px;
+}
+
+footer {
+      text-align: center;
+      border: solid 3px;
+      min-width: 980px;
+      border-radius: 40px;
+      
+}
+
+
+footer:hover {
+      cursor: default;
+      text-align: center;
+      border: solid 3px;
+      min-width: 980px;
+      border-radius: 7px;
+      
+}
+
+p {
+      color: rgba(255, 183, 49, 0.61);
+      text-shadow: 2rem;
+}
